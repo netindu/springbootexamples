@@ -11,7 +11,7 @@ public class SimpleHello {
 	public String sayHello() {
 		
 		System.out.println("In method sayHello");
-		return "Hello World !";
+		return "Welcome to Rest API Services.";
 		
 	}
 	
@@ -19,7 +19,7 @@ public class SimpleHello {
 	public String greeting() {
 		
 		System.out.println("In method greeting");
-		return "Hello World";
+		return "Hello World from Rest API Services";
 		
 	}
 	
@@ -28,7 +28,7 @@ public class SimpleHello {
 	public String greeting1() {
 		
 		System.out.println("In method greeting 1");
-		return "Hello World 1";
+		return "Hello World 1 from Rest API Services";
 		
 	}
 	
@@ -36,7 +36,7 @@ public class SimpleHello {
 	public String greeting2() {
 		
 		System.out.println("In method greeting 2");
-		return "Hello World 2";
+		return "Hello World 2 from Rest API Services";
 		
 	}
 

@@ -10,7 +10,7 @@ public class Hello {
 	public String greeting() {
 		
 		System.out.println("In method greeting in main package");
-		return "Welcome to Spring boot Application";
+		return "Welcome to Spring boot Application. Test Connection Successfull.";
 		
 	}
 

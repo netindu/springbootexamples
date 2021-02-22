@@ -11,7 +11,7 @@ public class SpringbootExamplesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootExamplesApplication.class, args);
 		
-		System.out.println("\nHello World\n");
+		System.out.println("\nHello World From the main application.\n");
 	}
 
 }
