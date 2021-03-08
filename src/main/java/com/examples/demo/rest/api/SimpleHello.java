@@ -1,6 +1,7 @@
 package com.examples.demo.rest.api;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,12 +18,21 @@ public class SimpleHello {
 	}
 	
 	@RequestMapping(method = RequestMethod.GET, value = "/api/hello")
-	public String greeting() {
+	public String hello() {
 		
-		System.out.println("In method greeting");
+		System.out.println("In method hello");
 		return "Hello World from Rest API Services!";
 		
 	}
+	
+	@RequestMapping(method = RequestMethod.GET, value = "/api/hello/{name}")
+	public String greeting(@PathVariable String name) {
+		
+		System.out.println("In method greeting");
+		return "Hello " + name;
+		
+	}
+	
 	
 	// Alternate ways to use the annotations.
 	/*
